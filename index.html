@@ -1,0 +1,39 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Employee Survey</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Employee Survey</h1>
+    <p id="description">Thank you for taking the time to help us improve the company</p>
+    <form id="survey-form">
+      <label id="name-label">Name <input id="name" type="text" placeholder="Enter your name" class="input" required></label>
+      <label id="email-label">Email <input id="email" type="email" placeholder="Enter your email" class="input" required></label>
+      <label id="number-label">How many years have you been working in this company? <input id="number" type="number" placeholder="Years" class="input" min=0 max=90 </label>
+      <label>Which department do you belong to?
+      <select id="dropdown">
+        <option>Select department</option>
+        <option>Engineering</option>
+        <option>QA</option>
+        <option>Manufacturing</option>
+      </select>
+      </label>
+      <label>Would you recommend this company to a friend?
+        <label id="Yes"><input type="radio" name="recommend" class="inline" value="Yes">Yes</label>
+        <label id="No"><input type="radio" name="recommend" class="inline" value="No">No</label>
+        <label id="Maybe"><input type="radio" name="recommend" class="inline" value="Maybe">Maybe</label>
+      </label>
+      <label>What would you like to see improved? (Check all that apply)
+        <label id="culture"><input type="checkbox" value="culture" class="inline">Work Culture</label>
+        <label id="benefits"><input type="checkbox" value="benefits" class="inline">Employee Benefits</label>
+        <label id="leaves"><input type="checkbox" value="leaves" class="inline">Number of leaves</label>
+      </label>
+      <label>Any comments or suggestions?
+        <textarea></textarea>
+      </label>
+     </form>
+     <button id="submit">Submit</button>
+  </body>
+</html>

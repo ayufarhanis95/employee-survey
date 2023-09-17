@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(37, 33, 96);
+    color: rgb(222, 221, 239);
+    font-size: 20px;
+    font-family: Times New Roman;
+  }
+  h1,p {
+    text-align: center;
+  }
+  input, select, textarea{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 15px;  
+  }
+  
+  label {
+    display: block;
+  }
+  .input, select, textarea{
+    width: 90%;
+  
+  
+  }
+  .inline {
+    display: inline;
+  }
+  form {
+    background-color: rgb(21, 17, 75);
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%; 
+  }
+  button{
+    background-color: rgb(21, 137, 106);
+    color: rgb(222, 221, 239);
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    border-color: rgb(21, 137, 106);
+  }
